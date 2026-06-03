@@ -1,0 +1,13 @@
+"""
+This document specify the libraries that are required for this project to run, so it can be installed in other machines
+If using venv, you can run 'pip freeze > requirements.txt' to generate this file.
+To install the libraries, run 'pip install -r requirements.txt' in your terminal.
+
+"""
+
+# Core Dependencies
+pytest
+pytest-dotenv
+dotenv
+pandas
+numpy
