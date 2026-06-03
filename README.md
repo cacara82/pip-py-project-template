@@ -1,10 +1,14 @@
 # Python Scripting Project Template (Using Pip)
-This repo contains a structured template to work on any Python scripting project, using Pip as the virtual environment manager. 
+This repo contains a structured template to work on any Python scripting project, using Pip as its virtual environment manager. 
+
+&nbsp;
 
 <div align="center">
   <img alt="lang-badge" src="https://img.shields.io/badge/lang-en-blue">
   <img alt="py-badge" src="https://img.shields.io/badge/python-3.12-blue?logo=python">
 </div>
+
+&nbsp;
 
 ## Project Structure
 WIP!
