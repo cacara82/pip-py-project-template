@@ -11,7 +11,22 @@ This repo contains a structured template to work on any Python scripting project
 &nbsp;
 
 ## Project Structure
-WIP!
+```
+├── .env
+├── .gitignore
+├── LICENSE
+├── README.md
+├── data/
+├── requirements.txt
+├── src/
+│   ├── main.py
+│   └── project/
+│       ├── __init__.py
+│       ├── config.py
+│       └── utils.py
+└── tests/
+    └── test_main.py
+```
 
 ## Requirements
 WIP!
