@@ -33,11 +33,13 @@ This repo contains a structured template to work on any Python scripting project
 
 Note that this is the **intended** default structure. Subject to local changes as needed.
 
+&nbsp;
+
 ## Requirements
 
 As this is a Pip template, the workflow to follow will use:
 
-1. Create and configure the virtual environment: 
+1. Create and configure the virtual environment:
 
 ```
 python -m venv <NAME_OF_ENVIRONMENT>          # create virtual environment
@@ -51,11 +53,13 @@ pip freeze > requirements.txt                 # 'freeze' your current dependenci
 
 ```
 python3 src/main.py                           # If working from root
+
+### if the output is something similar to 'Hello! Today is <DATE> and you are working on the root of <FOLDER>.', it is working as intended.
 ```
 
-If the output is something similar to 'Hello! Today is <DATE> and you are working on the root of <FOLDER>.', it is working as intended.
-
 3. Delete and re-configure the files/metadata needed and start working in your project!
+
+&nbsp;
 
 ## Disclaimer
 
