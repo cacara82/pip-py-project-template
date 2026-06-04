@@ -11,7 +11,7 @@ This repo contains a structured template to work on any Python scripting project
 
 &nbsp;
 
-## Project --Intended-- Structure
+## Project _Intended_ Structure
 ```
 ├── .env                    # (TO BE CREATED LOCALLY) Environment secret attributes, NEVER PUSH TO GIT
 ├── .gitignore              # Ignored files to not be tracked by Git, .env as an example
@@ -34,9 +34,29 @@ This repo contains a structured template to work on any Python scripting project
 Note that this is the **intended** default structure. Subject to local changes as needed.
 
 ## Requirements
-WIP!
+
+As this is a Pip template, the workflow to follow will use:
+
+1. Create and configure the virtual environment: 
+
 ```
-python -m venv .venv                   # crea entorno virtual
-source .venv/bin/activate              # actívalo (Windows: .venv\Scripts\activate)
-pip install -r requirements-dev.txt    # instala dependencias
+python -m venv <NAME_OF_ENVIRONMENT>          # create virtual environment
+source <NAME_OF_ENVIRONMENT>/bin/activate     # activate the environment (Linux/WSL - Bash)
+<NAME_OF_ENVIRONMENT>\Scripts\activate        # activate the environment (Windows - CMD/Shell)
+pip install -r requirements.txt               # install dependencies
+pip freeze > requirements.txt                 # 'freeze' your current dependencies into the requirements file
 ```
+
+2. Run 'main.py':
+
+```
+python3 src/main.py                           # If working from root
+```
+
+If the output is something similar to 'Hello! Today is <DATE> and you are working on the root of <FOLDER>.', it is working as intended.
+
+3. Delete and re-configure the files/metadata needed and start working in your project!
+
+## Disclaimer
+
+**This README serves purpose only as an example of how the template works. It SHOULD be replaced and or re-written specifically with the context of your own project.**
