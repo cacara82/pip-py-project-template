@@ -4,7 +4,8 @@ This repo contains a structured template to work on any Python scripting project
 &nbsp;
 
 <div align="center">
-  <img alt="lang-badge" src="https://img.shields.io/badge/lang-en-blue">
+  <img alt="github-badge" src="https://img.shields.io/badge/github-template-blue?logo=github">
+  <img alt="lang-badge" src="https://img.shields.io/badge/lang-en-green">
   <img alt="py-badge" src="https://img.shields.io/badge/python-3.12-blue?logo=python">
 </div>
 
@@ -12,20 +13,22 @@ This repo contains a structured template to work on any Python scripting project
 
 ## Project Structure
 ```
-├── .env
-├── .gitignore
-├── LICENSE
-├── README.md
-├── data/
-├── requirements.txt
-├── src/
-│   ├── main.py
-│   └── project/
-│       ├── __init__.py
-│       ├── config.py
-│       └── utils.py
-└── tests/
-    └── test_main.py
+├── .env                    # (TO BE CREATED LOCALLY)  
+├── .gitignore              #
+├── LICENSE                 #
+├── README.md               #
+├── data/                   # (TO BE CREATED LOCALLY) Files processed in/out by the scripts
+│   ├── input/              # (TO BE CREATED LOCALLY) Input data for scripting purposes, only if necessary
+│   └── output/             # (TO BE CREATED LOCALLY) Output data from the scripts, only if necessary
+├── requirements.txt        #
+├── src/                    #
+│   ├── main.py             #
+│   └── project/            #
+│       ├── __init__.py     #
+│       ├── config.py       #
+│       └── utils.py        #
+└── tests/                  #
+    └── test_main.py        #
 ```
 
 ## Requirements
